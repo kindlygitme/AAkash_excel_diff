@@ -451,9 +451,8 @@ st.markdown(f"""
   <div class="aakash-nav-logo">
     <img src="data:image/png;base64,{LOGO_B64}" alt="Aakash Logo"/>
     <div>
-      <div class="aakash-nav-title">ExcelDiff Pro</div>
-      <div class="aakash-nav-subtitle">Smart Sheet Comparison Tool</div>
-    </div>
+     
+   
   </div>
   <div class="aakash-nav-tag">Internal Tool</div>
 </div>
@@ -618,4 +617,4 @@ if old_file and new_file:
             </div>""", unsafe_allow_html=True)
 
 else:
-    st.info("Dono files upload karein — Old (baseline) aur New (updated) — phir compare button dabayein.")
+    st.info("Upload both files - Old (baseline) and New (updated) - then click the Compare button.")
